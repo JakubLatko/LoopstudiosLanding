@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Loopstudios | Landing Page</title>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="topWrapper">
+      <img src="images/logo.svg" class="logo topLogo" alt="our logo">
+      <nav class="primaryNavigation">
+        <ul id="navigation" class="navigationList closed" aria-expanded="false">
+          <li class="listItem"><a class="listItemLink"href="#">About</a></li>
+          <li class="listItem"><a class="listItemLink"href="#">Careers</a></li>
+          <li class="listItem"><a class="listItemLink"href="#">Events</a></li>
+          <li class="listItem"><a class="listItemLink"href="#">Products</a></li>
+          <li class="listItem"><a class="listItemLink"href="#"> Support</a></li>
+        </ul>
+        <button id="mobileMenuButton" class="burgerIcon" aria-controls="navigation"> 
+          <img class="menuIcon" src="images/icon-hamburger.svg" alt="mobile menu icon"> 
+        </button>
+      </nav>
+    </div>
+    <h1 class="heroSectionheading">Immersive experiences that deliver</h1> 
+  </header>
+  <main>
+    <section class="monsterWrapper">
+      <img class="mobileMonster" src="images/mobile/image-interactive.jpg" alt="a man in VR googles">
+      <div class="textWrapper">
+        <h2>The leader in interactive VR</h2>
+        <p>Founded in 2011, Loopstudios has been producing world-class virtual reality 
+        projects for some of the best companies around the globe. Our award-winning 
+        creations have transformed businesses through digital experiences that bind 
+        to their brand.</p>
+      </div>
+    </section>
+    <section class="prePhotosSection">
+      <h2>Our creations</h2>
+      <button>See all</button>  
+    </section>
+    <section class="photoWrapper">
+      <div class="photoRow">
+        <a href="#" class="creation earth" aria-labelledby="image of earth in space">
+          <h3> Deep earth</h3>
+        </a>
+        <a href="#" class="creation night" aria-labelledby="image of playing machine">
+          <h3> Night arcade</h3>
+        </a>
+        <a href="#" class="creation soccer" aria-labelledby="image of soccer player">
+          <h3> Soccer team VR</h3>
+        </a>
+        <a href="#"  class="creation grid" aria-labelledby="image of a car">
+          <h3>The grid</h3>
+        </a>
+      </div>
+      <div class="photoRow">
+        <a href="#"  class="creation above" aria-labelledby="image of terrain from bird's eye view"> 
+          <h3> From up above VR</h3>
+        </a>
+        <a href="#"  class="creation aurora" aria-labelledby="image of aurora">
+          <h3>Pocket borealis</h3>
+        </a>
+        <a href="#"  class="creation rover" aria-labelledby="image of mars rover">
+          <h3> The curiosity</h3>
+        </a>
+        <a href="#"  class="creation fisheye" aria-labelledby="image with fish eye effect">
+          <h3>Make it fisheye</h3>
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footerWrapper">
+      <img class="bottomLogo" src="images/logo.svg" alt="our logo">
+      <ul class="footerNavMobile">
+        <li class="footerNavItem"><a class="footerNavLink" href="#">About</a></li>
+        <li class="footerNavItem"><a class="footerNavLink" href="#">Careers</a></li>
+        <li class="footerNavItem"><a class="footerNavLink" href="#">Events</a></li>
+        <li class="footerNavItem"><a class="footerNavLink" href="#">Products</a></li>
+        <li class="footerNavItem"><a class="footerNavLink" href="#"> Support</a></li>
+      </ul>
+      <div class="socials">
+        <a class="socialLinkFooter" href="#"><img class="socialLinkImageFooter" src="images/icon-facebook.svg" alt="facebook icon"></a> 
+        <a class="socialLinkFooter" href="#"><img class="socialLinkImageFooter" src="images/icon-twitter.svg" alt="twitter icon"></a>  
+        <a class="socialLinkFooter" href="#"><img class="socialLinkImageFooter" src="images/icon-pinterest.svg" alt="pinterest icon"></a>
+        <a class="socialLinkFooter" href="#"><img class="socialLinkImageFooter" src="images/icon-instagram.svg" alt="instagram icon"></a>
+      </div>
+    </div>
+    <div class="footerWrapper">
+      <nav class="secondaryNavigation">
+        <ul class="footerNav">
+          <li class="footerNavItem"><a class="footerNavLink" href="#">About</a></li>
+          <li class="footerNavItem"><a class="footerNavLink" href="#">Careers</a></li>
+          <li class="footerNavItem"><a class="footerNavLink" href="#">Events</a></li>
+          <li class="footerNavItem"><a class="footerNavLink" href="#">Products</a></li>
+          <li class="footerNavItem"><a class="footerNavLink" href="#"> Support</a></li>
+        </ul>
+      </nav>
+      <p class="copyright">© 2023 Loopstudios. All rights reserved.</p> 
+    </div>
+  </footer>
+</body>
+</html>
